@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+    <!-- bootstrap embed-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Juragan Perabot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <form action="add" method="POST">
+            <h1>Add Data</h1>
+            <div class="form-group row">
+                <label for="example-text-input" class="col-2 col-form-label">String</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" placeholder="String" id="example-text-input" name="string">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-search-input" class="col-2 col-form-label">Integer</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Integer" id="example-search-input" name="integer">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-email-input" class="col-2 col-form-label">Float</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Float" id="example-email-input" name="float">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-date-input" class="col-2 col-form-label">Date</label>
+                <div class="col-10">
+                    <input class="form-control" type="date" value="2011-08-19" id="example-date-input" name="date">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-number-input" class="col-2 col-form-label">Boolean</label>
+                <div class="col-10">
+                    <select class="custom-select" name="boolean">
+                        <option value="" selected>Choose the boolean ...</option>
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">SAVE</button>
+            <a href="/" class="btn btn-warning">BACK</a>
+        </form>
+    </body>
+    </container>
+
+</html>
